@@ -1,0 +1,5 @@
+dist/*
+build/*
+node_modules/*
+src/utils/biosan-capture-scriptError/*
+src/utils/react-grid-layout/*

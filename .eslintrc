@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "plugin:sonarjs/recommended"
+  ],
+  "plugins": [
+    "sonarjs",
+    "react",
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "quotes": [1,"single"],
+    "no-unused-vars": "warn",
+    "no-mixed-operators": "off",
+    "no-extend-native": "off",
+    "comma-dangle": "off",
+    "camelcase": "off",
+    // "no-empty-pattern": "on",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "no-return-assign": "error",
+    // sonarjs
+    "sonarjs/cognitive-complexity": "off",
+    "sonarjs/no-duplicate-string": "off"
+  }
+}

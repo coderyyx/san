@@ -1,0 +1,16 @@
+
+@font-face {font-family: "anticon";
+  src: url('../../assets/fonts/iconfont.eot?t=1509183900768'); /* IE9*/
+  src: url('../../assets/fonts/iconfont.eot?t=1509183900768#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../assets/fonts/iconfont.woff'),
+  url('../../assets/fonts/iconfont.ttf?t=1509183900768') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../../assets/fonts/iconfont.svg?t=1509183900768#anticon') format('svg'); /* iOS 4.1- */
+}
+
+.anticon {
+  font-family: anticon, Helvetica, Arial, Verdana, Tahoma; !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
